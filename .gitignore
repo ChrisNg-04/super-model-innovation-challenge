@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.egg-info/
+src/*.egg-info/
+scratch/
+
+# Local fresh-environment verification; not part of the submission.
+.judge-test-env/
