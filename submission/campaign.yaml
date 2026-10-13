@@ -1,0 +1,58 @@
+rationale: Selected matched-control campaign. E1 is a low-A experiment at 95 C; E2
+  and E3 compare A0=0.1 versus 1.0 M at the same 75 C, B0=1.5 M and sampling times.
+  This tests M4's A-dependent impurity branch against M2's charge-independent branching
+  ratio. The original low-A, matched-control and lean designs were compared under
+  six assumed noise/parameter-spread scenarios. The matched-control design was more
+  robust in these conditional simulations, at higher material cost. It uses 1.5 g
+  A and 18 samples. All three runs are committed together. Simulated classification
+  is not a real success probability; the design extrapolates to new stoichiometries
+  and assumes M2/M4.
+experiments:
+- run_id: E1
+  temperature_C: 95.0
+  A0_M: 0.1
+  B0_M: 1.5
+  sample_times_min:
+  - 2.0
+  - 5.0
+  - 10.0
+  - 20.0
+  - 40.0
+  - 60.0
+  assay:
+  - A
+  - B
+  - P
+  - Q
+- run_id: E2
+  temperature_C: 75.0
+  A0_M: 0.1
+  B0_M: 1.5
+  sample_times_min:
+  - 2.0
+  - 5.0
+  - 10.0
+  - 40.0
+  - 60.0
+  - 180.0
+  assay:
+  - A
+  - B
+  - P
+  - Q
+- run_id: E3
+  temperature_C: 75.0
+  A0_M: 1.0
+  B0_M: 1.5
+  sample_times_min:
+  - 2.0
+  - 5.0
+  - 10.0
+  - 40.0
+  - 60.0
+  - 180.0
+  assay:
+  - A
+  - B
+  - P
+  - Q
