@@ -1,0 +1,22 @@
+[
+  {
+    "recipe": "install",
+    "exit_code": 0,
+    "seconds": 12.35
+  },
+  {
+    "recipe": "predict",
+    "exit_code": 0,
+    "seconds": 13.72
+  },
+  {
+    "recipe": "suggest",
+    "exit_code": 0,
+    "seconds": 0.42
+  },
+  {
+    "recipe": "replicate",
+    "exit_code": 0,
+    "seconds": 113.29
+  }
+]

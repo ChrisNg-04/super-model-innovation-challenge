@@ -1,0 +1,54 @@
+{
+  "key": {
+    "source_hash": "2b309edf722366da34acbb9d8a4c1a6083d5924858fb7261a60d1c47660e80bb",
+    "starts": 3,
+    "seed": 430,
+    "model": "M4",
+    "excluded": "B2"
+  },
+  "fit": {
+    "model": "M4",
+    "parameters": {
+      "k1": 0.030269516595225265,
+      "Ea1": 66.34642962351363,
+      "k2": 0.019796272761453355,
+      "Ea2": 59.60203382728893,
+      "k3": 2.4587075712561224e-05,
+      "Ea3": 61.262051324614696
+    },
+    "training_runs": [
+      "B1",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "excluded_runs": [
+      "B2"
+    ],
+    "negative_log_likelihood": -569.5301601418807,
+    "AIC": -1127.0603202837615,
+    "converged": true,
+    "converged_starts": 3,
+    "attempted_starts": 3,
+    "starts_near_best": 3,
+    "start_diagnostics": [
+      {
+        "NLL": -569.5301601418807,
+        "converged": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "NLL": -569.5301601416456,
+        "converged": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "NLL": -569.5301601390241,
+        "converged": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      }
+    ],
+    "start_NLL_range": 2.856609171431046e-09,
+    "at_parameter_bound": false
+  }
+}

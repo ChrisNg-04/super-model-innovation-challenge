@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-13",
+  "interpreter": "Spyder Python 3.12.11",
+  "command": "python submission_workflow.py all",
+  "runtime_environment": "Plain terminal; runtime native-library directories detected from interpreter prefixes",
+  "exit_code": 0,
+  "seconds": 122.4,
+  "prediction_rows": 384,
+  "figures": 14,
+  "experiments": 3,
+  "analytical_timepoints": 18,
+  "A_consumed_g": 1.5
+}

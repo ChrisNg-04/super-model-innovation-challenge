@@ -1,0 +1,47 @@
+rationale: 'PERSON4 ALTERNATIVE (not automatically selected): 12 analytical samples,
+  same three reactions and material as official 18-sample matched-A campaign. Time-point
+  subset chosen by independent bootstrap simulation, with E2/E3 paired and each run
+  retaining early and late samples. Refer to the independent stress-test report.'
+experiments:
+- run_id: E1
+  temperature_C: 95.0
+  A0_M: 0.1
+  B0_M: 1.5
+  sample_times_min:
+  - 10.0
+  - 20.0
+  - 40.0
+  - 60.0
+  assay:
+  - A
+  - B
+  - P
+  - Q
+- run_id: E2
+  temperature_C: 75.0
+  A0_M: 0.1
+  B0_M: 1.5
+  sample_times_min:
+  - 10.0
+  - 40.0
+  - 60.0
+  - 180.0
+  assay:
+  - A
+  - B
+  - P
+  - Q
+- run_id: E3
+  temperature_C: 75.0
+  A0_M: 1.0
+  B0_M: 1.5
+  sample_times_min:
+  - 10.0
+  - 40.0
+  - 60.0
+  - 180.0
+  assay:
+  - A
+  - B
+  - P
+  - Q

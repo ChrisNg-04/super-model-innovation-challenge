@@ -1,0 +1,5 @@
+strategy,experiments,samples,material_g,expected_information_nats,fraction_prior_entropy_removed,simulated_model_classification
+temperature_only,3,18,3.75,0.023027314927283604,0.033235004333983055,0.565715975631539
+point_estimates,3,18,0.9375,0.6928633044809924,1.0,1.0
+uncertainty_aware,3,18,0.375,0.6928633044809924,1.0,1.0
+uncertainty_short_times,3,18,0.375,0.6925291307087401,0.9995176916282171,1.0

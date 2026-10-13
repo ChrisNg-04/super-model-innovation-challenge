@@ -1,0 +1,65 @@
+{
+  "rationale": "Finite-grid, uncertainty-aware discrimination of M2 vs M4. Greedy joint expected-information gain per gram preserves shared parameter uncertainty across experiments. Selected schedule strategy: uncertainty_short_times. Shorter, logarithmically spread sampling was compared with long plateau sampling. All experiments are committed together; no observations are fed back during this event.",
+  "experiments": [
+    {
+      "run_id": "E1",
+      "temperature_C": 95.0,
+      "A0_M": 0.1,
+      "B0_M": 1.5,
+      "sample_times_min": [
+        2.0,
+        5.0,
+        10.0,
+        20.0,
+        40.0,
+        60.0
+      ],
+      "assay": [
+        "A",
+        "B",
+        "P",
+        "Q"
+      ]
+    },
+    {
+      "run_id": "E2",
+      "temperature_C": 75.0,
+      "A0_M": 0.1,
+      "B0_M": 1.5,
+      "sample_times_min": [
+        2.0,
+        5.0,
+        10.0,
+        40.0,
+        60.0,
+        180.0
+      ],
+      "assay": [
+        "A",
+        "B",
+        "P",
+        "Q"
+      ]
+    },
+    {
+      "run_id": "E3",
+      "temperature_C": 85.0,
+      "A0_M": 0.1,
+      "B0_M": 0.75,
+      "sample_times_min": [
+        2.0,
+        5.0,
+        10.0,
+        40.0,
+        60.0,
+        180.0
+      ],
+      "assay": [
+        "A",
+        "B",
+        "P",
+        "Q"
+      ]
+    }
+  ]
+}

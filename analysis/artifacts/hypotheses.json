@@ -1,0 +1,36 @@
+{
+  "weight_type": "relative AIC weights, not Bayesian posterior probabilities",
+  "limitations": "Conditional AIC scores under the supplied models and bounds, not posterior probabilities. M6 remains numerically sensitive after expanded-bound review. Five-run conditional interval checks are included; extrapolation calibration is unverified.",
+  "ranking": [
+    {
+      "model": "M4",
+      "weight": 0.5119132114910283,
+      "justification": "Joint leading candidate with M2; delta AIC is only about 0.095. Intermediate and A-dependent impurity route explain the data; historical charge makes this difficult to distinguish from M2."
+    },
+    {
+      "model": "M2",
+      "weight": 0.48808678850897175,
+      "justification": "Joint leading candidate with M4; comparable fit and excluded-experiment predictions. Intermediate branches to P/Q with no direct A dependence in the impurity step."
+    },
+    {
+      "model": "M1",
+      "weight": 0.0,
+      "justification": "Substantially worse likelihood/AIC under the tested procedure; direct formation does not reproduce the observed product delay as well as intermediate models."
+    },
+    {
+      "model": "M5",
+      "weight": 0.0,
+      "justification": "Substantially worse likelihood/AIC under the tested procedure; product-plus-A impurity route is not supported relative to M2/M4."
+    },
+    {
+      "model": "M3",
+      "weight": 0.0,
+      "justification": "Substantially worse likelihood/AIC under the tested procedure; series product degradation is not supported relative to M2/M4."
+    },
+    {
+      "model": "M6",
+      "weight": 0.0,
+      "justification": "Expanded-bound six-start review gives AIC 12764.8, far worse than M2/M4. Only 3/6 starts converged, one near the best, with Ea3 at its lower bound. Best converged fit is retained, but global optimality is unresolved; small rate or activation energy alone is not grounds for exclusion."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "sources": {
+    "Polymodel_Testing_Handoff_Person4_Consistency_Fixed.zip": "8f11bdedc6af6eeabafdcf8c8808f9b85ef649297f447a7cc9d52adbf249b196",
+    "Polymodel_Testing_Handoff (1).zip": "3e4550cf1d706885639aa338e454b5a6b2aca8e50e14d53414d6e07f476efba5",
+    "compare_system_B_m6fix (1).py": "a52b641fed9cbb74607ed36a8bb2956ed09a6f50c7368ec144160bf26cdcbd37"
+  },
+  "merge_decisions": [
+    "Portable repository from corrected Person4 review; original candidate equations unchanged.",
+    "Training-only fold fits and 100-per-fold/model bootstrap samples from testing handoff; regenerated intervals match supplied coverage.",
+    "Retained matched-control 18-sample campaign and sample-reduction alternatives.",
+    "M6 expanded bounds and improved start transferred to shared fitter; only converged finite solutions accepted.",
+    "Cached incoming bootstrap draws retained; future missing draws use deterministic per-repetition random streams.",
+    "Promoted the best converged expanded-bound M6 estimate only. M2/M4 parameters, mixture weights and saved bootstrap distributions are unchanged; original M6 values are retained under reference/."
+  ],
+  "bootstrap_origin": "60 per model for full-data M2/M4; 100 per model/fold for leave-one-run-out validation. Incoming saved fits were audited and reused, not claimed retrained."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-13",
+  "environment": "Fresh .judge-test-env; dependencies installed into it by just install. Package downloads used local caches where available.",
+  "commands": [
+    {
+      "command": "just install",
+      "exit_code": 0,
+      "seconds": 175.29
+    },
+    {
+      "command": "just predict",
+      "exit_code": 0,
+      "seconds": 44.2
+    },
+    {
+      "command": "just suggest",
+      "exit_code": 0,
+      "seconds": 0.61
+    },
+    {
+      "command": "just replicate",
+      "exit_code": 0,
+      "seconds": 103.6
+    }
+  ],
+  "total_seconds": 323.7,
+  "prediction_rows": 384,
+  "figures": 14,
+  "campaign_A_g": 1.5,
+  "campaign_samples": 18
+}

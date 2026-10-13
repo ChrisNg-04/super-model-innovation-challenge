@@ -1,0 +1,67 @@
+{
+  "model": "M6",
+  "parameters": {
+    "k1": 0.0011789836117770958,
+    "Ea1": 33.80687428265098,
+    "k2": 8.073573743105452,
+    "Ea2": 71.8203146011195,
+    "k3": 0.0005388353138578397,
+    "Ea3": 0.0
+  },
+  "training_runs": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5"
+  ],
+  "excluded_runs": [],
+  "negative_log_likelihood": 6376.4004671077255,
+  "AIC": 12764.800934215451,
+  "converged": true,
+  "converged_starts": 3,
+  "attempted_starts": 6,
+  "starts_near_best": 1,
+  "start_diagnostics": [
+    {
+      "NLL": 6605.300270340662,
+      "converged": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "NLL": 6376.4004671077255,
+      "converged": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "NLL": 6651.245293660838,
+      "converged": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "NLL": 6844.208266038145,
+      "converged": false,
+      "message": "ABNORMAL: "
+    },
+    {
+      "NLL": 6528.24508795081,
+      "converged": false,
+      "message": "ABNORMAL: "
+    },
+    {
+      "NLL": 6434.08201331875,
+      "converged": false,
+      "message": "ABNORMAL: "
+    }
+  ],
+  "start_NLL_range": 467.80779893041927,
+  "at_parameter_bound": true,
+  "rate_bounds": [
+    1e-10,
+    1000
+  ],
+  "energy_bounds_kJ_mol": [
+    0,
+    200
+  ]
+}
